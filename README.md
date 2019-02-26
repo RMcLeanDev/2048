@@ -4,8 +4,8 @@ Recreate the popular 2048 game.
 
 ## Authors
 
-* **Ryan McLean** - *Initial work* - [PurpleBooth](https://github.com/Lilkgb)
-* **Dino Nguyen** - *Initial work* - [PurpleBooth](https://github.com/dinowins)
+* **Ryan McLean** - *Initial work* - [](https://github.com/Lilkgb)
+* **Dino Nguyen** - *Initial work* - [](https://github.com/dinowins)
 
 ## License
 
