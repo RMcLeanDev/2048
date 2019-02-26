@@ -1,0 +1,88 @@
+body {
+  background-color: #faf8ef;
+  font-family: Clear Sans;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+header .title {
+  display: flex;
+  justify-content: space-between;
+}
+header .title .left h1 {
+  font-size: 70px;
+}
+header .title .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .newGame {
+  display: flex;
+  justify-content: space-between;
+}
+header .newGame button {
+  width: 200px;
+  font-size: 20px;
+  background-color: #bbada0;
+  border-radius: 5px;
+  color: white;
+}
+
+.gameGrid {
+  width: 80%;
+  height: 800px;
+  margin: auto;
+  margin-top: 80px;
+  border: 20px solid #bbada0;
+  border-radius: 20px;
+  background-color: #bbada0;
+}
+.gameGrid .grid-row {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.gameGrid .grid-row .grid-cell {
+  height: auto;
+  background-color: rgba(238, 228, 218, 0.35);
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.right .score {
+  background-color: #bbada0;
+  border-radius: 5px;
+  margin-right: 30px;
+  text-align: center;
+  padding: 5px;
+}
+.right .score .bottom {
+  color: white;
+}
+.right .score p {
+  font-size: 40px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  color: rgba(238, 228, 218, 0.35);
+}
+.right .best {
+  background-color: #bbada0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+.right .best .bottom {
+  color: white;
+}
+.right .best p {
+  font-size: 40px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  color: rgba(238, 228, 218, 0.35);
+}
+
+/*# sourceMappingURL=input.css.map */
